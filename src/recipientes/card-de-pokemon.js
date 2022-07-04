@@ -30,7 +30,6 @@ export const InfoPokemon = ({url}) => {
                 <div className="habilidades">
                     
                 </div>
-                
             </div>
             }
         </div>

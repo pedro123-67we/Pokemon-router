@@ -5,6 +5,7 @@ import{Conexion} from './conexion/conexion';
 import { Cards } from './recipientes/card';
 
 
+
 const Home = () => <h1>elija lo que quiere ver</h1>
 
 const Pokemons = () => {
@@ -33,7 +34,8 @@ const Pokemons = () => {
   )
 }
 
-const Pokemon = () => <h1>Pokemon</h1>
+const Pokemon = () =>{
+} 
 
 const Matricula = () => <h1>Mi Matricula es 190093</h1>
 
@@ -60,7 +62,7 @@ const App = () => {
       </nav>
     </header>
 
-    <Routes>
+    <Routes> 
     <Route exact path='/' element={<Home />} >
     </Route>
 
