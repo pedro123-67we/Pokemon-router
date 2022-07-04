@@ -1,0 +1,42 @@
+body{
+  background:rgb(231, 220, 220);
+}
+nav{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: rgb(218, 18, 18);
+  color: #fff;
+}
+Link {
+  text-decoration: none;
+  color: #fff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.botones{
+  display: flex;
+  justify-content: center;
+}
+.boton{
+  width: 120px;
+  height: 40px;
+  border-radius: 9px;
+  margin-left: 20px;
+  background-color: rgb(25, 24, 24);
+  color: white;
+  border: none;
+
+}
+.boton:hover{
+  background-color:rgb(102, 104, 105)
+}
